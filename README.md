@@ -12,7 +12,7 @@ The name says it: a *wright* — a maker (ship*wright*, play*wright*) — who bo
 
 This is the earlier TurboWarp-based application. The current Brickwright workbench lives in the [active repository](https://github.com/CrispStrobe/brickwright).
 
-**Try it now** · <https://brickwright.vercel.app/editor.html>
+**Try it now** · <https://brickwright-legacy.vercel.app/editor.html>
 
 Built on [TurboWarp's `scratch-gui`](https://github.com/TurboWarp/scratch-gui) (GPL-3.0); the
 block ⇄ code compiler is [sb3-creator](https://github.com/CrispStrobe/sb3-creator). Issues,
@@ -175,7 +175,7 @@ See the per-shell READMEs for the linking ("brain transplant") step.
 - **GitHub Pages** — auto-deploys on every push to `develop` via GitHub Actions
   (`.github/workflows/deploy-pages.yml` → `actions/deploy-pages`). Serves at
   <https://crispstrobe.github.io/brickwright-legacy/> after the Pages deployment. The public editor is available on Vercel during the migration.
-- **Vercel** — auto-deploys `develop` to <https://brickwright.vercel.app/>, driven by
+- **Vercel** — auto-deploys `develop` to <https://brickwright-legacy.vercel.app/>, driven by
   `vercel.json`: `installCommand` = `npm install --ignore-scripts --include=dev --no-audit
   --no-fund`, `buildCommand` = `./scripts/vercel-build.sh`, `outputDirectory` = `build`.
   `--include=dev` is mandatory — Vercel sets `NODE_ENV=production`, which otherwise skips
