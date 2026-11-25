@@ -1,6 +1,6 @@
-# Brickwright
+# Brickwright Legacy
 
-**Brickwright is a creative-coding studio where every project is the same thing four ways —
+**Brickwright Legacy is a creative-coding studio where every project is the same thing four ways —
 [blocks](https://scratch.mit.edu), pseudocode, Python, and JavaScript — and you can switch
 between them at any time without losing your work.** Build a game by dragging blocks, flip it
 to Python to read the logic, tweak it as JavaScript, and drop it back to blocks: the sprites,
@@ -9,6 +9,8 @@ bricks and robots**.
 
 The name says it: a *wright* — a maker (ship*wright*, play*wright*) — who both **builds** and
 **writes** with blocks.
+
+This is the earlier TurboWarp-based application. The current Brickwright workbench lives in the [active repository](https://github.com/CrispStrobe/brickwright-lite).
 
 **Try it now:** <https://crispstrobe.github.io/brickwright/> · <https://brickwright.vercel.app/>
 
